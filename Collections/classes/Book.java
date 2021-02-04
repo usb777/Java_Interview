@@ -1,12 +1,12 @@
 package classes;
 
-class Book 
+class Book1 
 {  
 int id;  
 String name,author,publisher;  
 int quantity;
  
-public Book(int id, String name, String author, String publisher, int quantity) 
+public Book1(int id, String name, String author, String publisher, int quantity) 
 {  
     this.id = id;  
     this.name = name;  
@@ -15,7 +15,7 @@ public Book(int id, String name, String author, String publisher, int quantity)
     this.quantity = quantity;  
 }
 
-public Book() {}
+public Book1() {}
 
 
 }
