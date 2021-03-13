@@ -1,0 +1,9 @@
+http://tutorials.jenkov.com/java-functional-programming/streams.html
+
+https://www.tutorialspoint.com/java8/java8_streams.htm
+
+https://www.geeksforgeeks.org/stream-in-java/
+
+https://www.journaldev.com/2774/java-8-stream
+
+https://howtodoinjava.com/java8/java-streams-by-examples/
