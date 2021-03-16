@@ -21,14 +21,16 @@ public class Basic_exploration {
 		numbers1.addAll(numbers); // main order
 		
 		System.out.println(numbers.toString());
-		
+		System.out.println("=========Shuffle=============");
 		 Collections.shuffle(numbers);
 		
 		System.out.println(numbers.toString());
 		System.out.println(numbers1.toString());
 		
 		
-	
+		Collections.sort(numbers);
+		System.out.println("=========Sorting=============");
+		System.out.println(numbers.toString());
 
 	}
 
