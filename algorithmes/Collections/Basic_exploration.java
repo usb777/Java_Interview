@@ -19,7 +19,6 @@ public class Basic_exploration {
 		numbers.add(5);
 		//numbers1 = numbers;
 		numbers1.addAll(numbers); // main order
-		
 		System.out.println(numbers.toString());
 		System.out.println("=========Shuffle=============");
 		 Collections.shuffle(numbers);
