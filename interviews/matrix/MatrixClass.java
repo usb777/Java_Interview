@@ -25,7 +25,7 @@ public class MatrixClass {
       
 	    for (int i=0;i<n;i++)
 	    	{
-	    	for (int j=0;j<m;m++)
+	    	for (int j=0;j<m;j++)
 	    		{
 	    		  matrix[i][j] = (int)(Math.random() * range) + min;
 	    		}
