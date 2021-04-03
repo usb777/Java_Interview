@@ -1,6 +1,7 @@
 package streamsAPI;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.stream.Stream;
@@ -25,6 +26,13 @@ public class MyExploration {
 		StringTokenizer st = new StringTokenizer("sdfsdf dsf dfd   dds");
 		
 		System.out.println(st.countTokens());
+		
+		System.out.println("=============================");
+		arList.stream().filter(x-> x.length()<4).forEach(System.out::println);
+		
+		
+		
+		
            
 	}
 

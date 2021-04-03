@@ -15,8 +15,7 @@ public class CountWordsInString
 	
 	public static int fastCounter(String str)
 	{
-		StringTokenizer sToken = new StringTokenizer(str);
-		
+		StringTokenizer sToken = new StringTokenizer(str);		
 		return sToken.countTokens();
 	}
 	
